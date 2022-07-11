@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodeMapping.Tables
 {
-    public class CountryCodes : CodeTable
+    public class CountryCodes
     {
         private static readonly List<CodeMapping> countryMappings = new List<CodeMapping>()
         {
@@ -261,6 +261,6 @@ namespace CodeMapping.Tables
             new CodeMapping() { ExternalCode = "ax", InternalCode = "ALA", InternalKey = "248", Description = "Åland Islands" }
         };
 
-        protected override List<CodeMapping> Mappings { get { return countryMappings; } }
+        public static readonly CodeTable CountryCodesTable = new CodeTable(countryMappings);
     }
 }
