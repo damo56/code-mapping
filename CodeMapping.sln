@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMapping", "CodeMapping\CodeMapping.csproj", "{80FAFFB3-F8B5-4969-82F1-5D0A9ED1B65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMappingTest", "CodeMappingTest\CodeMappingTest.csproj", "{A6CCD495-34C3-4976-B37E-767EA20C7FE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80FAFFB3-F8B5-4969-82F1-5D0A9ED1B65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FAFFB3-F8B5-4969-82F1-5D0A9ED1B65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FAFFB3-F8B5-4969-82F1-5D0A9ED1B65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FAFFB3-F8B5-4969-82F1-5D0A9ED1B65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CCD495-34C3-4976-B37E-767EA20C7FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CCD495-34C3-4976-B37E-767EA20C7FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CCD495-34C3-4976-B37E-767EA20C7FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CCD495-34C3-4976-B37E-767EA20C7FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD2CDCC8-B5EE-404D-B92B-00436987A11B}
+	EndGlobalSection
+EndGlobal
